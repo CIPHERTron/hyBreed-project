@@ -1,0 +1,54 @@
+/**********************************************TAG SSELECTOR**********************************************/
+body {
+  background-color: #f0f0f0;
+  background-image: url("../BG.jpg");
+}
+
+hr{
+  background-color: white;
+  border-style: dotted none none none;
+  height: 0;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+}
+
+h1{
+color: #679b9b;
+text-shadow: 2px 1px;
+animation: 3s ease-in 1s infinite reverse both running slidein;
+animation-duration: 2s;
+}
+
+h1:hover{
+  color: #0779e4;
+  text-shadow: 2px 2px 5px gold;
+}
+
+h3{
+color: #679b9b;
+text-shadow: 1px 1px 3px red;
+}
+
+img{
+  animation: 3s ease-in 1s infinite reverse both running slidein;
+  animation-duration: 2s;
+
+}
+
+
+/**********************************************CLASS SSELECTOR**********************************************/
+
+.heading{
+  color: #ff7272;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+/**********************************************ID SSELECTOR**********************************************/
+
+#para{
+  color: #584153;
+}
